@@ -9,8 +9,5 @@ Nick Laid
 Brady Bauck
 Eli Cuchna
 
-Hello This is Nick!
-
-This is Nick again!!! :) Brady can you approve this pull?
 
 
