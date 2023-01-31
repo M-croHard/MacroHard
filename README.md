@@ -43,6 +43,11 @@ Jed Owns a small bar that has a dance floor and stage that holds about 300 peopl
 
 
 ---
+Jodi is an older lady (kinda a helicopter parent) that struggles with tech. Her son has showed her the cool new ticket app that he uses. Jodi would like to see her son play at these events, but only whants to see the location, date/time her son plays and no other events. She wants a app that helps her keep track of her sons play times that is simple for her to use.
+
+
+
+---
 add use case diagrams here
 
 #System Requirments
