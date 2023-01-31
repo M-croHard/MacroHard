@@ -48,7 +48,7 @@ add use case diagrams here
 #System Requirments
 --- 
 ##Functional
-1. Add stuff
+1. Each Ticket Created will be stored with a unique ID, the date it was purchased, and what event the ticket is for. This can be used as verification of purchase since customer will have copie. 
 
 ##Non-Functional
 1. Add stuff
