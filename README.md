@@ -2,9 +2,9 @@
 ##CSIS 340 Software Engineering 
 ##Members
 ---
-Tyler Sather 
-Nick Laid
-Brady Bauck
+Tyler Sather, 
+Nick Laid,
+Brady Bauck,
 Eli Cuchna
 
 #Event Ticketing and Sales Application
@@ -39,7 +39,7 @@ Event Customers
 
 #User Stories
 ---
-Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. He’s well versed with technology and wants a solution that is easy for him and his employees to use and that doesn’t take too much from his bottom line. 
+Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. Heâ€™s well versed with technology and wants a solution that is easy for him and his employees to use and that doesnâ€™t take too much from his bottom line. 
 
 
 ---
