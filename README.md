@@ -37,7 +37,7 @@ Event Customers
 * Multiple ways of receiving tickets once purchased.
 * Help options in case of ticketing issues. (Lost tickets...etc)
 
-#User Stories
+#Personas
 ---
 Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. He’s well versed with technology and wants a solution that is easy for him and his employees to use and that doesn’t take too much from his bottom line. 
 
@@ -45,8 +45,13 @@ Jed Owns a small bar that has a dance floor and stage that holds about 300 peopl
 ---
 Jodi is an older lady (kinda a helicopter parent) that struggles with tech. Her son has showed her the cool new ticket app that he uses. Jodi would like to see her son play at these events, but only whants to see the location, date/time her son plays and no other events. She wants a app that helps her keep track of her sons play times that is simple for her to use.
 
+George is in a band and is struggling to find places to play. He would love to have a quick solution to find locations to play that display day and times available. George would also be able to send the details of each location to his bandmates and friends.
+#User Stories
+---
+Eli - George: 
+George is searching for a place for his band to play, by using the app he can search by location and find potential concert dates. After searching for a few minutes he finds a few possible solutions and sends potential concert dates to his band. After hearing their replies he then contacts the business owners and books concert dates for his band quickly and easily. 
 
-
+#Use Case Diagrams
 ---
 add use case diagrams here
 
