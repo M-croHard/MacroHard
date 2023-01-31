@@ -9,11 +9,15 @@ Eli Cuchna
 
 #Event Ticketing and Sales Application
 ---
-This application will allow users to set up events with detailed ticketing and venue information and provide guests with ticket-purchasing options. Guests and customers will then be able to use the same application to purchase tickets, receive tickets (physical or digital) and contact the event holders and application service providers in case of any ticket purchasing help or issues. 
+This application will allow users to set up events and provide customers with the ability to purchase tickets for those events. 
 
 #Product Description
 ---
-This application is applicable to event holders, as well as event guests. The application will provide meaningful and smooth services to both side
+This application is applicable to event holders, and event guests. The application will provide meaningful and smooth services to both sides of the event/ticketing process. Event holders will be able to set event dates, times, venues, prices, and ticket amounts. Event guests will be able to search events and look at ticket costs, seating, and details on the availability of tickets with the ability to purchase the tickets that they want.
+
+  
+
+
 
 #Stakeholders
 ---
