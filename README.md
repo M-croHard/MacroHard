@@ -24,9 +24,12 @@ Software Developers and Maintenance
 * Supports Android, Ios, and web services.
 * Ease of distribution and modification.
 
+
 Event Holders
 * Easy to set up events and ticketing costs.
-* Manageable data regarding ticket sales 
+* Manageable data regarding ticket sales.
+* Reliable routes for customers to buy tickets through both online and physical advertisements. 
+* Easy cash-out options once the event is over.
 
 Event Customers
 * Easy to search and find events.
@@ -36,9 +39,9 @@ Event Customers
 
 #User Stories
 ---
-add user stories here
+Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. He’s well versed with technology and wants a solution that is easy for him and his employees to use and that doesn’t take too much from his bottom line. 
 
-#Use Case Diagrams
+
 ---
 add use case diagrams here
 
