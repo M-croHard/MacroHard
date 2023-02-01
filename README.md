@@ -46,10 +46,10 @@ Jodi is an older lady (kinda a helicopter parent) that struggles with tech. Her 
 
 ---
 Carl is a college music student who loves going to concerts, he frequents them weekly. While he doesn't mind using other ticket systems like ticket master, he's mad that they charge an arm and leg on random fees. He also likes more local concerts that currently the only way to get tickets is at the door with cash he'd love another way to get those tickets. Being a college student Carl lives off his phone using apps and the browser constantly. 
----
 
-George is in a band and is struggling to find places to play. He would love to have a quick solution to find locations to play that display day and times available. George would also be able to send the details of each location to his bandmates and friends.
 ---
+George is in a band and is struggling to find places to play. He would love to have a quick solution to find locations to play that display day and times available. George would also be able to send the details of each location to his bandmates and friends.
+
 
 #User Stories
 ---
