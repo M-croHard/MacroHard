@@ -45,7 +45,7 @@ Jed Owns a small bar that has a dance floor and stage that holds about 300 peopl
 Jodi is an older lady (kinda a helicopter parent) that struggles with tech. Her son has showed her the cool new ticket app that he uses. Jodi would like to see her son play at these events, but only whants to see the location, date/time her son plays and no other events. She wants a app that helps her keep track of her sons play times that is simple for her to use.
 
 ---
-Carl is a college music student who loves going to concerts, he frequents them weekly. While he doesn't mind using other ticket systems like ticket master, he's mad that they charge an arm and leg on random fees. He also likes more local concerts that currently the only way to get tickets is at the door with cash he'd love another way to get those tickets. Being a college student Carl lives off his phone using apps and the browser constantly. 
+Tyler - Carl is a college music student who loves going to concerts, he frequents them weekly. While he doesn't mind using other ticket systems like ticket master, he's mad that they charge an arm and leg on random fees. He also likes more local concerts that currently the only way to get tickets is at the door with cash he'd love another way to get those tickets. Being a college student Carl lives off his phone using apps and the browser constantly. 
 
 ---
 George is in a band and is struggling to find places to play. He would love to have a quick solution to find locations to play that display day and times available. George would also be able to send the details of each location to his bandmates and friends.
@@ -58,6 +58,13 @@ George is searching for a place for his band to play, by using the app he can se
 
 Eli - Billy:
 Billy is practicing at home for upcoming concerts when he gets a notification by the app from on of his band mates. He found some potential concert dates around the area and after checking his schedule to see if he is open selects which options work best for him. He relays this to his bandmate, who can then a few minutes later confirms the concert dates. Billy, now with upcoming concerts can send the date to his friends via social media to watch him play!
+
+
+Tyler - Carl
+Carl heard about a sweet local concert and wants some tickets before the concert starts. He goes online to our app Ticket Blaster and searches for the concert he wants, he enters in how many tickets he wants and is prompted to pay, after paying he then gets his ticket on his phone which he is also able to print if he'd like. 
+
+Tyler - Carl
+Carl doesn't always keep up with the current events of concerts but through the app he can select his preferred genres. Then a band has a concert and sets up tickets to be sold on the app, and the genre matches Carl recieves an alert or email saying that a new show is coming to town and will link him to the appropiate page to purchase the tickets if he chooses to do so.  
 
 #Use Case Diagrams
 ---
