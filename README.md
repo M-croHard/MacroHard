@@ -59,12 +59,18 @@ George is searching for a place for his band to play, by using the app he can se
 Eli - Billy:
 Billy is practicing at home for upcoming concerts when he gets a notification by the app from on of his band mates. He found some potential concert dates around the area and after checking his schedule to see if he is open selects which options work best for him. He relays this to his bandmate, who can then a few minutes later confirms the concert dates. Billy, now with upcoming concerts can send the date to his friends via social media to watch him play!
 
-
 Tyler - Carl
 Carl heard about a sweet local concert and wants some tickets before the concert starts. He goes online to our app Ticket Blaster and searches for the concert he wants, he enters in how many tickets he wants and is prompted to pay, after paying he then gets his ticket on his phone which he is also able to print if he'd like. 
 
 Tyler - Carl
 Carl doesn't always keep up with the current events of concerts but through the app he can select his preferred genres. Then a band has a concert and sets up tickets to be sold on the app, and the genre matches Carl recieves an alert or email saying that a new show is coming to town and will link him to the appropiate page to purchase the tickets if he chooses to do so.  
+
+Brady - Mandy 
+Mandy heard from a freind who uses the app how great it is. She was able to download it from here phone and desktope using the same account! She wanted to make sure that the bands didnt mix with her work schedual so she set the app to only show specific dates. She then booked all of her favroite local/ regional events for her days!
+
+Brady - Jenna Dikin 
+Jenna Dikin is new to the entertainment industry and wants to help grow her bussiness by grabbing the attention of artist to play at her Bar. By using the app she sets up the days the bar is availible for booking and adds pictures of the stage to help attract enthusiastic artist wanting to play. She is quickly notified of all the request she is getting and is given a list of whom to allow to play at her bar.
+
 
 #Use Case Diagrams
 ---
