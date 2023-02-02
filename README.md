@@ -59,6 +59,8 @@ George is searching for a place for his band to play, by using the app he can se
 Eli - Billy:
 Billy is practicing at home for upcoming concerts when he gets a notification by the app from on of his band mates. He found some potential concert dates around the area and after checking his schedule to see if he is open selects which options work best for him. He relays this to his bandmate, who can then a few minutes later confirms the concert dates. Billy, now with upcoming concerts can send the date to his friends via social media to watch him play!
 
+Brady - Mandy heard from a freind who uses the app how great it is. She was able to download it from here phone and desktope using the same account! She wanted to make sure that the bands didnt mix with her work schedual so she set the app to only show specific dates. She then booked all of her favroite local/ regional events for her days!
+
 #Use Case Diagrams
 ---
 add use case diagrams here
