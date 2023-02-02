@@ -1,4 +1,4 @@
-# MacroHard
+﻿# MacroHard
 ##CSIS 340 Software Engineering 
 ##Members
 ---
@@ -23,6 +23,7 @@ Our application will be delivered through a web page and mobile devices. The inf
 Software Developers and Maintenance 
 * Supports Android, Ios, and web services.
 * Ease of distribution and modification.
+* Reasonable cost. 
 
 
 Event Holders
@@ -39,10 +40,10 @@ Event Customers
 
 #Personas
 ---
-Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. He’s well versed with technology and wants a solution that is easy for him and his employees to use and that doesn’t take too much from his bottom line. 
+Nick - Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. He’s well versed in technology and wants a solution that is easy for him and his employees to use and that doesn’t take too much from his bottom line. 
 
 ---
-Jodi is an older lady (kinda a helicopter parent) that struggles with tech. Her son has showed her the cool new ticket app that he uses. Jodi would like to see her son play at these events, but only whants to see the location, date/time her son plays and no other events. She wants a app that helps her keep track of her sons play times that is simple for her to use.
+Jodi is an older lady (kind of a helicopter parent) that struggles with tech. Her son has shown her the cool new ticket app that he uses. Jodi would like to see her son play at these events, but only wants to see the location, date/time her son plays and no other events. She wants a app that helps her keep track of her son’s play times that is simple for her to use.
 
 ---
 Carl is a college music student who loves going to concerts, he frequents them weekly. While he doesn't mind using other ticket systems like ticket master, he's mad that they charge an arm and leg on random fees. He also likes more local concerts that currently the only way to get tickets is at the door with cash he'd love another way to get those tickets. Being a college student Carl lives off his phone using apps and the browser constantly. 
@@ -58,6 +59,8 @@ George is waiting in the large line for the concert and finally gets to the fron
 
 Eli - Billy (Concert Goer):
 Billy is looking for concerts in the area to woo this girl he has been talking too. He goes the app and looks for available concerts in his area and finds one that he thinks that both he and his date will enjoy. He purchases two tickets quickly and easily and is happy with the experience. The day of the concert comes but oh no! His date cancelled on him, but not to worry Billy can still refund his tickets with a simple refund option.
+
+Nick – Jed has an upcoming event with a local band. The time, location and ticket prices are set. The day of the concert, one of the band members brings up the idea of a food drive that is happening in town and was wondering if it was possible for people who buy tickets at the door through the app to get a discount if they bring a nonperishable food item. At first Jed says no because he thinks it would be too hard of a change with such short notice. After looking over the app and the ticket prices he sees that there is a way to add another ticket option for the event. He creates the food drive option with a $2 discount for in person sales only and contacts the band member with the good news. The band member gets on social media and informs everyone about the discount and they are able to partake in the local food drive that evening. 
 
 #Use Case Diagrams
 ---
