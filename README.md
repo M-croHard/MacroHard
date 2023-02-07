@@ -81,7 +81,8 @@ Nick – Carl has been extremely busy with school and doesn’t have much cash a
 
 #Use Case Diagrams
 ---
-add use case diagrams here
+![image](https://user-images.githubusercontent.com/91901337/217379464-4dddecf3-f829-49f1-b6f5-c703fb39beac.png)
+
 
 #System Requirments
 --- 
