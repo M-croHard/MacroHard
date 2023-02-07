@@ -15,7 +15,9 @@ This application will allow users to set up events and provide customers with th
 ---
 This application is applicable to event holders, and event guests. The application will provide meaningful and smooth services to both sides of the event/ticketing process. Event holders will be able to set event dates, times, venues, prices, and ticket amounts. Event guests will be able to search events and look at ticket costs, seating, and details on the availability of tickets with the ability to purchase the tickets that they want.
 
-Our application will be delivered through a web page and mobile devices. The information needed to be stored and retrieved by users will be stored on a web server.  
+Our application will be delivered through a web page and mobile devices. The information needed to be stored and retrieved by users will be stored on a web server and database server. 
+
+Most of of our user stories revolve concerts. However, this application can be used for any event where tickets need to be sold.
 
 
 #Stakeholders
@@ -33,6 +35,7 @@ Event Holders
 * Reliable routes for customers to buy tickets through both online and physical advertisements. 
 * Easy cash-out options once the event is over.
 * Options to modify events on short notice.
+* Reasonable fees for using the application.
 
 Event Customers
 * Easy to search and find events.
@@ -41,8 +44,6 @@ Event Customers
 * Help options in case of ticketing issues. (Lost tickets...etc)
 
 #Personas
----
-Nick - Jed Owns a small bar that has a dance floor and stage that holds about 300 people. He has been having concerts at his location for about a decade and wants more options to sell tickets other than cash at the door. He’s well versed in technology and wants a solution that is easy for him and his employees to use and that doesn’t take too much from his bottom line. 
 
 ---
 Brady - Jodi is an older lady (kind of a helicopter parent) that struggles with tech. Her son has shown her the cool new ticket app that he uses. Jodi would like to see her son play at these events, but only wants to see the location, date/time her son plays and no other events. She wants a app that helps her keep track of her son’s play times that is simple for her to use.
@@ -87,7 +88,7 @@ add use case diagrams here
 ##Functional
 1. Each Ticket Created will be stored with a unique ID, the date it was purchased, and what event the ticket is for. This can be used as verification of purchase since customer will have copy. 
 2. Each ticket should be able to be refunded under a option menu?
-3. Admin should be able to add concerts, should have maximum tickets that can be sold, date, and event ticket is for. 
+3. Admin should be able to add events, should have maximum tickets that can be sold, date, and event ticket is for. 
 4. Dark theme. 
 5. Purchase multiple tickets.
 6. Employee should be able to "scan" ticket. Ticket is used and can no longer be scanned for event.
