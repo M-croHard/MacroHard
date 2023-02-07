@@ -17,7 +17,7 @@ This application is applicable to event holders, and event guests. The applicati
 
 Our application will be delivered through a web page and mobile devices. The information needed to be stored and retrieved by users will be stored on a web server and database server. 
 
-Most of of our user stories revolve concerts. However, this application can be used for any event where tickets need to be sold.
+Most of of our user stories revolve around concerts. However, this application can be used for any event where tickets need to be sold.
 
 
 #Stakeholders
