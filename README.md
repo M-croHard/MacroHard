@@ -24,7 +24,7 @@ Software Developers and Maintenance
 * Supports Android, Ios, and web services.
 * Ease of distribution and modification.
 * Reasonable cost.
-* Effect way to make money from their hard work but not to the point of turning away potential customers and users. 
+* Effective way to make money from their hard work but not to the point of turning away potential customers and users. 
 
 
 Event Holders
