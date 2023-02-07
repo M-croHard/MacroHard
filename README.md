@@ -87,15 +87,17 @@ add use case diagrams here
 --- 
 ##Functional
 1. Each Ticket Created will be stored with a unique ID, the date it was purchased, and what event the ticket is for. This can be used as verification of purchase since customer will have copy. 
-2. Each ticket should be able to be refunded under a option menu?
+2. Each ticket should be able to be refunded under a option menu if refund meets certain criteria?
 3. Admin should be able to add events, should have maximum tickets that can be sold, date, and event ticket is for. 
 4. Dark theme. 
 5. Purchase multiple tickets.
 6. Employee should be able to "scan" ticket. Ticket is used and can no longer be scanned for event.
 7. Admins, Employees, and Customers all require logins.
+8. Email/Text notifications and confirmations. 
 
 ##Non-Functional
 1. Interactions should be less than 200ms
+2. User data must be stored securely on database. 
 
 ##Non-Requirement
-1. Add stuff
+1. We will not be using an outsourced billing application 
