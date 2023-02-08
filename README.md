@@ -74,8 +74,8 @@ Carl doesn't always keep up with the current events of concerts but through the 
 Brady - Mandy 
 Mandy heard from a freind who uses the app how great it is. She was able to download it from her phone and desktop using the same account! She wanted to make sure that the bands didn't mix with her work schedual, so she set the app to only show specific dates. She then booked all of her favroite local/ regional events for her days!
 
-Brady - Jenna Dikin 
-Jenna Dikin is new to the entertainment industry and wants to help grow her bussiness by grabbing the attention of artist to play at her Bar. By using the app she sets up the days the bar is availible for booking and adds pictures of the stage to help attract enthusiastic artist wanting to play. She is quickly notified of all the request and is given a list of whom to allow to play at her bar.
+Brady - Jenna 
+Jenna is new to the entertainment industry and wants to help grow her bussiness by grabbing the attention of artist to play at her Bar. By using the app she sets up the days the bar is availible for booking and adds pictures of the stage to help attract enthusiastic artist wanting to play. She is quickly notified of all the request and is given a list of whom to allow to play at her bar.
 
 Nick – Jed has an upcoming event with a local band. The time, location, and ticket prices are set. On the day of the concert, one of the band members brings up the idea of a food drive that is happening in town and was wondering if it was possible for people who buy tickets at the door through the app to get a discount if they bring a nonperishable food item. At first, Jed says no because he thinks it would be too hard of a change with such short notice. After looking over the app and the ticket prices he sees that there is a way to add another ticket option for the event. He creates the food drive option with a $2 discount for in-person sales only and contacts the band member with the good news. The band member gets on social media and informs everyone about the discount, and they are able to partake in the local food drive that evening. 
 
