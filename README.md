@@ -17,7 +17,7 @@ This application is applicable to event holders, and event guests. The applicati
 
 Our application will be delivered through a web page and mobile devices. The information needed to be stored and retrieved by users will be stored on a web server and database server. 
 
-Most of of our user stories revolve around concerts. However, this application can be used for any event where tickets need to be sold.
+Most of of our user stories revolve around concerts. However, this application can be used for any event where tickets need to be sold and purchased.
 
 
 #Stakeholders
@@ -42,6 +42,7 @@ Event Customers
 * Smooth checkout experience.
 * Multiple ways of receiving tickets once purchased.
 * Help options in case of ticketing issues. (Lost tickets...etc)
+* Secure handling of billing information.
 
 #Personas
 ---
@@ -90,17 +91,19 @@ Nick – Carl has been extremely busy with school and doesn’t have much cash a
 --- 
 ##Functional
 1. Each Ticket Created will be stored with a unique ID, the date it was purchased, and what event the ticket is for. This can be used as verification of purchase since customer will have copy. 
-2. Each ticket should be able to be refunded under a option menu if refund meets certain criteria?
+2. Each ticket should be able to be refunded under a option menu if refund meets certain criteria.
 3. Admin should be able to add events, should have maximum tickets that can be sold, date, and event ticket is for. 
 4. Dark theme. 
 5. Purchase multiple tickets.
 6. Employee should be able to "scan" ticket. Ticket is used and can no longer be scanned for event.
 7. Admins, Employees, and Customers all require logins.
-8. Email/Text notifications and confirmations. 
+8. Email/Text notifications and confirmations.
+9. Ability to view seating charts.
+10. Reliable and secure billing function for purchases.
 
 ##Non-Functional
-1. Interactions should be less than 200ms
+1. Interactions should be less than 200ms.
 2. User data must be stored securely on database. 
 
 ##Non-Requirement
-1. We will not be using an outsourced billing application 
+1. We will not be using an outsourced billing application/system. 
