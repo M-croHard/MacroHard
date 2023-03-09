@@ -1,0 +1,7 @@
+Prereqs - Visual Studio 2022
+	- Dot Net 
+	-ASP.Net
+	-Knowledge of programming / software engineering
+Configure / build - cd to where you have the file
+		  - dotnet build
+run / execute     -dotnet run
