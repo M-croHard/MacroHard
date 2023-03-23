@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\Source\\Repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj": {}
+    "C:\\Users\\Owner\\source\\repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\Source\\Repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj": {
+    "C:\\Users\\Owner\\source\\repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\Source\\Repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
         "projectName": "Ticket Blaster",
-        "projectPath": "C:\\Users\\Owner\\Source\\Repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+        "projectPath": "C:\\Users\\Owner\\source\\repos\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\Source\\Repos\\MacroHard\\Ticket Blaster\\obj\\",
+        "outputPath": "C:\\Users\\Owner\\source\\repos\\MacroHard\\Ticket Blaster\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",

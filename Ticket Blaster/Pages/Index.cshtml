@@ -8,11 +8,6 @@
     <h1 class="display-4">TICKET BLASTER</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-<!DOCTYPE html>
-<html>
-
-
-
 
 
 
@@ -20,123 +15,199 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>
-        Create a Search Bar using HTML and CSS
-    </title>
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1">
-
+    <title>Ticket Blaster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-
-        /* styling navlist */
-        #navlist {
-            background-color: #0074D9;
-            position: absolute;
-            width: 100%;
+        /* General styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-            /* styling navlist anchor element */
+        h1, b {
+            color: #0074D9;
+        }
+
+        /* Styling for the navbar */
+        #navlist {
+            background-color: #0074D9;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            overflow: hidden;
+            z-index: 1000;
+        }
+
             #navlist a {
                 float: left;
                 display: block;
                 color: #f2f2f2;
                 text-align: center;
-                padding: 12px;
+                padding: 14px 16px;
                 text-decoration: none;
-                font-size: 15px;
+                font-size: 18px;
             }
 
-        .navlist-right {
-            float: right;
-        }
+                #navlist a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
 
-        /* hover effect of navlist anchor element */
-        #navlist a:hover {
-            background-color: #ddd;
-            color: black;
-        }
+                /* Login link styling */
+                #navlist a.login {
+                    float: right;
+                    background-color: #FF4136;
+                    font-weight: bold;
+                }
 
-        /* styling search bar */
-        .search input[type=text] {
-            width: 500px;
-            height: 30px;
-            border-radius: 70px;
-            border: none;
+                    #navlist a.login:hover {
+                        background-color: #FF725C;
+                    }
+
+        .search-wrapper {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         .search {
-            float: left;
-            margin: 7px;
+            margin: 10px;
         }
 
+            .search input[type=text] {
+                width: 500px;
+                height: 30px;
+                border-radius: 70px;
+                border: none;
+                padding-left: 10px;
+                font-size: 16px;
+                color: #333;
+                background-color: #fff;
+                box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+            }
+
             .search button {
-                background-color: navajowhite;
-                color: grey;
+                background-color: #FF4136;
+                color: white;
                 float: right;
-                padding: 5px 10px;
-                margin-right: 16px;
+                padding: 5px 20px;
+                margin-right: 10px;
                 font-size: 16px;
                 border: none;
+                border-radius: 20px;
                 cursor: pointer;
             }
+
+        /* User login styling */
+        .user-login {
+            float: right;
+            display: flex;
+            align-items: center;
+            padding: 14px 16px;
+            color: #f2f2f2;
+            font-size: 18px;
+        }
+
+            .user-login i {
+                margin-right: 8px;
+            }
+
+        /* Content styling */
+        .content {
+            padding-top: 80px;
+            padding-left: 20px;
+            padding-right: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+            .content p {
+                line-height: 1.6;
+                color: #333;
+            }
+
+
+        /* Responsive design */
+        {
+            .search-wrapper {
+                display: none;
+            }
+
+            .search input[type=text] {
+                width: 100%;
+            }
+
+            #navlist a {
+                font-size: 16px;
+                padding: 12px 14px;
+            }
+        }
     </style>
 </head>
 
 <body>
-
     <!-- Navbar items -->
     <div id="navlist">
         <a href="#">Home</a>
         <a href="#">Our Products</a>
-        <a href="#">Careers</a>
+        <a href="#">Careers</
+
         <a href="#">About Us</a>
         <a href="#">Contact Us</a>
 
         <!-- search bar right align -->
         <div class="search">
-
             <form action="#">
-                <input type="text"
-                       placeholder=" Search Courses"
-                       name="search">
+                <input type="text" placeholder=" Search Events" name="search">
                 <button>
-                    <i class="fa fa-search"
-                       style="font-size: 18px;">
-                    </i>
+                    <i class="fa fa-search" style="font-size: 18px;"></i>
                 </button>
             </form>
         </div>
     </div>
 
     <!-- logo with tag -->
-    <div class="content">
-        <h1 style="color:floralwhite; padding-top:40px;">
-            Ticket Blaster
-        </h1>
-
-        <b>
-            A place for people to make plans
-        </b>
-
-
-
-        <p>This application is applicable to event holders,
-            and event guests. We provide
-            meaningful and smooth services to both sides of 
-            the event/ticketing process. Event holders can set event dates, times, venues, prices, 
-            and ticket amounts. Event guests will be able to search 
-            events and look at ticket costs, seating, and 
-            details on the availability of tickets with the ability 
-            to purchase the tickets that they want.
+    <div class="content" style="padding-top: 60px;">
+        <h1 style="color: dodgerblue;">What is Ticket Blaster?</h1>
+        <b>A place for people to make plans</b>
+        <p>
+            This application is applicable to event holders and event guests.
+            We provide meaningful and smooth services to both sides of the event/ticketing process. 
+            Event holders can set event dates, times, venues, prices, and ticket amounts. 
+            Event guests will be able to search events and look at ticket costs, seating, 
+            and details on the availability of tickets with the ability to purchase the tickets that they want.
         </p>
-
-
     </div>
 </body>
-
 </html>
+
+
+<!-- Login-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Ticket Blaster</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="post" asp-controller="Account" asp-action="Login">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
+
+
+
+
