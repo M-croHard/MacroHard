@@ -60,3 +60,34 @@ C:\Users\Owner\Source\Repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\refint\Tic
 C:\Users\Owner\Source\Repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.pdb
 C:\Users\Owner\Source\Repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.genruntimeconfig.cache
 C:\Users\Owner\Source\Repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\ref\Ticket Blaster.dll
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\appsettings.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\Ticket Blaster.staticwebassets.runtime.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\Ticket Blaster.exe
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\Ticket Blaster.deps.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\Ticket Blaster.runtimeconfig.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\Ticket Blaster.dll
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\bin\Debug\net6.0\Ticket Blaster.pdb
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.csproj.AssemblyReference.cache
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.AssemblyInfoInputs.cache
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.AssemblyInfo.cs
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.csproj.CoreCompileInputs.cache
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.RazorAssemblyInfo.cache
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.RazorAssemblyInfo.cs
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets\msbuild.Ticket Blaster.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets\msbuild.build.Ticket Blaster.props
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ticket Blaster.props
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ticket Blaster.props
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\scopedcss\bundle\Ticket Blaster.styles.css
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\scopedcss\projectbundle\Ticket Blaster.bundle.scp.css
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.dll
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\refint\Ticket Blaster.dll
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.pdb
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.genruntimeconfig.cache
+C:\Users\bbauck\source\repos\MacroHard\Ticket Blaster\obj\Debug\net6.0\ref\Ticket Blaster.dll
