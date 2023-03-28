@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nickl\\OneDrive\\Desktop\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj": {}
+    "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\Ticket Blaster\\Ticket Blaster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nickl\\OneDrive\\Desktop\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj": {
+    "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\Ticket Blaster\\Ticket Blaster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nickl\\OneDrive\\Desktop\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+        "projectUniqueName": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\Ticket Blaster\\Ticket Blaster.csproj",
         "projectName": "Ticket Blaster",
-        "projectPath": "C:\\Users\\Nickl\\OneDrive\\Desktop\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+        "projectPath": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\Ticket Blaster\\Ticket Blaster.csproj",
         "packagesPath": "C:\\Users\\Nickl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nickl\\OneDrive\\Desktop\\MacroHard\\Ticket Blaster\\obj\\",
+        "outputPath": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\Ticket Blaster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
