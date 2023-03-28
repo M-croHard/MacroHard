@@ -7,28 +7,45 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Ticket_Blaster.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Ticket_Blaster</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Events</a>
-                        </li>
-                    </ul>
+        <div id="navlist">
+            <div>
+                <a asp-page="/Index">Home</a>
+                <a asp-page="/Privacy">Events</a>
+                <!-- <a href="#">Careers</a>         Just uncomment if we want to use this later-->
+                <a asp-page="/AboutUs">About Us</a>
+                <a asp-page="/Login">Sign In</a>
+            </div>
+            <div class="user-login">
+                <i class="fa fa-user-circle-o" style="font-size: 24px;"></i>
+                <a href="#" class="login">Login</a>
+                <form method="post" asp-controller="Account" asp-action="Login" class="login-form" style="display:none;">
+                    <div>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required />
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required />
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="search-wrapper">
+                <div class="search">
+                    <form action="#">
+                        <input type="text" placeholder="Search Events" name="search">
+                        <button>
+                            <i class="fa fa-search" style="font-size: 18px;"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -38,7 +55,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - Ticket Blaster - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2023 - Ticket Blaster - <a asp-area="" asp-page="/Index">Home</a> - Tyler was here.
         </div>
     </footer>
 

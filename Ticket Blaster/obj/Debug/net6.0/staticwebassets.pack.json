@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\Ticket Blaster.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Sathe\\Desktop\\MacroHard\\Ticket Blaster\\wwwroot\\Images\\Eli.PNG",
+      "PackagePath": "staticwebassets\\Images\\Eli.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Sathe\\Desktop\\MacroHard\\Ticket Blaster\\wwwroot\\Images\\IMG_3941.jpg",
+      "PackagePath": "staticwebassets\\Images\\IMG_3941.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sathe\\Desktop\\MacroHard\\Ticket Blaster\\wwwroot\\Images\\Nick.PNG",
+      "PackagePath": "staticwebassets\\Images\\Nick.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Sathe\\Desktop\\MacroHard\\Ticket Blaster\\wwwroot\\Images\\Tylr.PNG",
+      "PackagePath": "staticwebassets\\Images\\Tylr.PNG"
+    },
+    {
       "Id": "C:\\Users\\Sathe\\Desktop\\MacroHard\\Ticket Blaster\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

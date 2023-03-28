@@ -3,84 +3,19 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
+<h1>@ViewData["Title"]</h1>
 <div class="text-center">
     <h1 class="display-4">TICKET BLASTER</h1>
     <h1 style="color: grey;">WE BLAST CONVENIENCE FEES RIGHT OUT THE DOOR</h1>
+    <p>
+    This application is applicable to event holders and event guests.
+    We provide meaningful and smooth services to both sides of the event/ticketing process. 
+    Event holders can set event dates, times, venues, prices, and ticket amounts. 
+    Event guests will be able to search events and look at ticket costs, seating, 
+    and details on the availability of tickets with the ability to purchase the tickets that they want.
+    </p>
 </div>
 
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ticket Blaster</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-    <!-- Navbar items -->
-    <div id="navlist">
-        <a href="#">Home</a>
-        <a href="#">Our Products</a>
-        <a href="#">Careers</
-
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>
-
-        <!-- search bar right align -->
-        <div class="search">
-            <form action="#">
-                <input type="text" placeholder=" Search Events" name="search">
-                <button>
-                    <i class="fa fa-search" style="font-size: 18px;"></i>
-                </button>
-            </form>
-        </div>
-    </div>
-
-    <!-- logo with tag -->
-    <div class="content" style="padding-top: 60px;">
-        <h1 style="color: dodgerblue;">What is Ticket Blaster?</h1>
-        <b>A place for people to make plans</b>
-        <p>
-            This application is applicable to event holders and event guests.
-            We provide meaningful and smooth services to both sides of the event/ticketing process. 
-            Event holders can set event dates, times, venues, prices, and ticket amounts. 
-            Event guests will be able to search events and look at ticket costs, seating, 
-            and details on the availability of tickets with the ability to purchase the tickets that they want.
-        </p>
-    </div>
-</body>
-</html>
-
-
-<!-- Login-->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login - Ticket Blaster</title>
-</head>
-<body>
-    <h1>Login</h1>
-    <form method="post" asp-controller="Account" asp-action="Login">
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required />
-        </div>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required />
-        </div>
-        <button type="submit">Login</button>
-    </form>
-</body>
-</html>
 
 
 
