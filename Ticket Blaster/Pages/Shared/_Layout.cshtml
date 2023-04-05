@@ -1,52 +1,62 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Ticket_Blaster</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Ticket_Blaster.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Ticket Blaster</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/Ticket_Blaster.styles.css" asp-append-version="true">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .navbar-nav > li > a {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            padding: 15px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div id="navlist">
-            <div>
-                <a asp-page="/Index">Home</a>
-                <a asp-page="/Privacy">Events</a>
-                <!-- <a href="#">Careers</a>         Just uncomment if we want to use this later-->
-                <a asp-page="/PurchaseTickets">Purchase Tickets</a>
-                <a asp-page="/AboutUs">About Us</a>
-                <a asp-page="/Login">Sign In</a>
-                <a asp-page="/CreateAccount">Create Account</a>
-            </div>
-            <div class="user-login">
-                <i class="fa fa-user-circle-o" style="font-size: 24px;"></i>
-                <a href="#" class="login">Login</a>
-                <form method="post" asp-controller="Account" asp-action="Login" class="login-form" style="display:none;">
-                    <div>
-                        <label for="username">Username:</label>
-                        <input type="text" id="username" name="username" required />
-                    </div>
-                    <div>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required />
-                    </div>
-                    <button type="submit">Login</button>
-                </form>
-            </div>
-            <div class="search-wrapper">
-                <div class="search">
-                    <form action="#">
-                        <input type="text" placeholder="Search Events" name="search">
-                        <button>
-                            <i class="fa fa-search" style="font-size: 18px;"></i>
-                        </button>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Ticket Blaster</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/PurchaseTickets">Purchase Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Reviews">Reviews</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Events" aria-label="Search">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
                     </form>
+                    <a class="nav-link ml-3" asp-area="" asp-page="/Login">Sign In</a>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <div class="container">
@@ -54,17 +64,14 @@
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Ticket Blaster - <a asp-area="" asp-page="/Index">Home</a> - Tyler was here.
-        </div>
-    </footer>
+    <div class="container">
+        &copy; 2023 - Ticket Blaster - <a asp-area="" asp-page="/Index">Home</a>
+    </div>
+</footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
-</body>
+    </body>
 </html>
