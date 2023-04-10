@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hNr0sBIEgx9zIX0GoFa1GTstrMFv+W7Ymnh8VMXQ0g+9RDrWCksRilOUmscd6FvPox3exGSNlwos950pFk1FmA==",
+  "dgSpecHash": "VgMotLBpomi+/uT88dZxwMBi/CfI0pMe6cZp+posJvCgZt7tK6btNesQL3eGKCso1cAorZLvNSPHTnczDcQRew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+  "projectFilePath": "C:\\Users\\Nickl\\Desktop\\MacroHard\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nickl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nickl\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
