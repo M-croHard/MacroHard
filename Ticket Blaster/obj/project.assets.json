@@ -10017,23 +10017,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bbauck\\.nuget\\packages\\": {},
+    "C:\\Users\\Nickl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\bRADY\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+      "projectUniqueName": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
       "projectName": "Ticket Blaster",
-      "projectPath": "D:\\bRADY\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
-      "packagesPath": "C:\\Users\\bbauck\\.nuget\\packages\\",
-      "outputPath": "D:\\bRADY\\MacroHard\\Ticket Blaster\\obj\\",
+      "projectPath": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\MacroHard\\Ticket Blaster\\Ticket Blaster.csproj",
+      "packagesPath": "C:\\Users\\Nickl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nickl\\Desktop\\TicketBlaster\\MacroHard\\Ticket Blaster\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bbauck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nickl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10095,7 +10095,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
