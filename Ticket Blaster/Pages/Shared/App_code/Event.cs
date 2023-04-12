@@ -2,7 +2,6 @@ using System;
 
 namespace Event.Ticket_Blaster.Pages.Shared.App_code
 {
-    //Will interface with 
     public class Event
     {
         //Attributes
@@ -13,6 +12,8 @@ namespace Event.Ticket_Blaster.Pages.Shared.App_code
         private string EventAddress;
         private int MaxPeople;
 
+        private int TicketsSold;
+
         //Methods
         protected int EventID { get; set; };
         protected string EventName { get; set; };
@@ -20,8 +21,9 @@ namespace Event.Ticket_Blaster.Pages.Shared.App_code
         protected string EventDate { get; set; };
         protected string EventAddress { get; set; };
         protected int MaxPeople { get; set; };
+        protected int TicketsSold { get; set; };
 
-        public Event(int eventID, string eventName, string eventHost, DateTime eventDate, string, eventAddress, int maxPeople)          //default constructor
+        public Event(int eventID, string eventName, string eventHost, DateTime eventDate, string, eventAddress, int maxPeople)          //constructor
         {
             this.EventID = eventID;
             this.EventName = eventName;
@@ -30,5 +32,9 @@ namespace Event.Ticket_Blaster.Pages.Shared.App_code
             this.EventAddress = eventAddress;
             this.MaxPeople = maxPeople;
         }
+
+        public int ticketsLeft() {
+            return MaxPeople - TicketsSold;
+        };
     }
 }
