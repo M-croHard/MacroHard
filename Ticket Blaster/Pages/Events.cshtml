@@ -1,0 +1,23 @@
+﻿@page
+@model Ticket_Blaster.Pages.Events
+@{
+    string[] localEvents = {"Name", "Name1", "Name2" };
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Events</h1>
+    <p>Here is an event</p>
+    @{
+        for (int i = 0; i < 2; i++)
+        {
+            <p>@localEvents[i]</p>    
+        }
+    }   
+</body>
+</html>
