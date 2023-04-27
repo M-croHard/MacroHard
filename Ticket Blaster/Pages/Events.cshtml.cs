@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Ticket_Blaster.Pages
 {
-    public class CreateEvent : PageModel
+    public class Event : PageModel
     {
         public void OnGet()
         {
