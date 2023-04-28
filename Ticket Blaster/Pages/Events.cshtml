@@ -1,0 +1,37 @@
+﻿@page
+@model Ticket_Blaster.Pages.Events
+@{
+    //string[] array1 = {"Name of event", "host name", "Event date", "Event location", "Event description"}
+    string[] event1 = { "Ballard Barty", "Eli Cuchna", "05/10/2023", "Ballard Hall", "We party rockin' " };
+    string[] event2 = { "The Emptys", "Venue #453", "05/25/2023", "Venue 453, Downtown Fargo", "Listen to some local music!"};
+    string[] event3 = { "Knockoff WWE", "Perry Platypus", "05/27/2023", "My mom's basement", "My mom is out of town" };
+    string[][] localEvents = {event1, event2, event3};
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Events</title>
+</head>
+<body>
+    <h1>Events</h1>
+    <h2>Let's party!</h2> 
+    <h4>Respectfully of course!</h4>
+    <br /><br />
+    @{
+        for (int i = 0; i < 3; i++)
+        {
+            <h3>@localEvents[i][0]</h3>
+            <p>Host: @localEvents[i][1]</p>
+            <p>Date: @localEvents[i][2]</p>
+            <p>Address: @localEvents[i][3]</p>
+            <p>Description: @localEvents[i][4]</p>
+            <form action="Register" method="post">
+                <input type="submit" value="Register">
+            </form>
+            <br /><br />
+        }
+    }   
+</body>
+</html>

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Ticket Blaster",
+    "\\Ticket Blaster\\Pages"
   ],
-  "SelectedNode": "\\Ticket Blaster.sln",
+  "SelectedNode": "\\Ticket Blaster\\Pages\\Events.cshtml",
   "PreviewInSolutionExplorer": false
 }

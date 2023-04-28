@@ -9,57 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ticket_Blaster
 build_property.RootNamespace = Ticket_Blaster
-build_property.ProjectDir = C:\Users\elicu\source\repos\MacroHard\Ticket Blaster\
+build_property.ProjectDir = C:\Users\elicu\source\repos\SoftwareEngineering\Ticket Blaster\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\elicu\source\repos\MacroHard\Ticket Blaster
+build_property.MSBuildProjectDirectory = C:\Users\elicu\source\repos\SoftwareEngineering\Ticket Blaster
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/AboutUs.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/CreateAccount.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/CreateAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Error.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/CreateEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRXZlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Index.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Events.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Login.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Privacy.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/PurchaseTickets.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/PurchaseTickets.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVyY2hhc2VUaWNrZXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Reviews.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Reviews.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/_ViewImports.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/_ViewStart.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elicu/source/repos/MacroHard/Ticket Blaster/Pages/Shared/_Layout.cshtml]
+[C:/Users/elicu/source/repos/SoftwareEngineering/Ticket Blaster/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w44hkvyrbl
