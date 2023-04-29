@@ -1,21 +1,50 @@
 ﻿@page
 @model IndexModel
+
 @{
     ViewData["Title"] = "Home page";
 }
-<h1>@ViewData["Title"]</h1>
-<div class="text-center">
-    <h1 class="display-4">TICKET BLASTER</h1>
-    <h1 style="color: grey;">WE BLAST CONVENIENCE FEES RIGHT OUT THE DOOR</h1>
-    <p>
-    This application is applicable to event holders and event guests.
-    We provide meaningful and smooth services to both sides of the event/ticketing process. 
-    Event holders can set event dates, times, venues, prices, and ticket amounts. 
-    Event guests will be able to search events and look at ticket costs, seating, 
-    and details on the availability of tickets with the ability to purchase the tickets that they want.
-    </p>
-</div>
 
+<div class="container">
+    <div class="text-center">
+        <h1>@ViewData["Title"]</h1>
+        <h1 class="display-4">TICKET BLASTER</h1>
+        <h2 class="text-muted">WE BLAST CONVENIENCE FEES RIGHT OUT THE DOOR</h2>
+
+        <p class="lead">
+            This application is applicable to event holders and event guests.
+            We provide meaningful and smooth services to both sides of the event/ticketing process.
+            Event holders can set event dates, times, venues, prices, and ticket amounts.
+            Event guests will be able to search events and look at ticket costs, seating,
+            and details on the availability of tickets with the ability to purchase the tickets that they want.
+        </p>
+
+        <h2 class="text-muted mt-4">Set up Local Concerts and Invite Friends</h2>
+        <img src="~/Images/Fun.jpg" alt="Fun Image" class="img-fluid rounded" style="width: 40%; height: auto;">
+
+        <h2 class="text-muted mt-4">Use ticket blaster to invite your wedding guests!</h2>
+        <img src="~/Images/wedding.jpg" alt="wedding Image" class="img-fluid rounded" style="width: 40%; height: auto;">
+
+        <h2 class="text-muted mt-4">
+            Wanna play at a bar or host or need performers to fill an empty space?
+        </h2>
+
+        <div class="d-flex justify-content-center">
+            <img src="~/Images/basement.jpg" alt="basement Image" class="img-fluid rounded mr-2" style="width: 40%;">
+            <img src="~/Images/bar.jpg" alt="bar Image" class="img-fluid rounded ml-2" style="width: 40%;">
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-sm-12 text-left">
+                <p class="lead">
+                    <a href="https://www.facebook.com/profile.php?id=100091862906924" target="_blank" class="text-primary">
+                        Click Here ---- > Visit our Facebook page to see fun posts by others!
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

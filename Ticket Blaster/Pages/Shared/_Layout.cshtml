@@ -8,20 +8,66 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
     <link rel="stylesheet" href="~/Ticket_Blaster.styles.css" asp-append-version="true">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        .navbar-nav > li > a {
-            margin-left: 15px;
-            margin-right: 15px;
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
         }
 
-        header {
-            margin-bottom: 30px;
+        .navbar {
+            padding: 1rem 0;
         }
 
-        footer {
-            padding: 15px 0;
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
         }
+
+        .nav-link {
+            font-weight: 500;
+            font-size: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .form-inline .form-control {
+            margin-left: 1rem;
+        }
+
+        .dark-mode-switch {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            padding-right: 0.5rem;
+        }
+
+        .nav-link.dark-mode-switch {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .nav-link.dark-mode-switch span {
+            margin-left: 5px; /* Add space between the label and the toggle switch */
+        }
+
+        .slider {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+
+        .fa-facebook {
+            font-size: 24px;
+            margin-left: 8px;
+            color: #3b5998;
+        }
+
+            .fa-facebook:hover {
+                color: #2e4372;
+            }
     </style>
 </head>
 <body>
@@ -49,11 +95,13 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/CreateAccount">Create Account</a>
                         </li>
+                        <!-- Add dark mode toggle switch here -->
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/AboutUs">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Reviews">Reviews</a>
+                            <label class="nav-link dark-mode-switch">
+                                Dark Mode
+                                <input type="checkbox" id="dark-mode-toggle">
+                                <span class="slider round"></span>
+                            </label>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -71,13 +119,37 @@
         </main>
     </div>
     <footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2023 - Ticket Blaster - <a asp-area="" asp-page="/Index">Home</a>
-    </div>
-</footer>
+        <div class="container">
+            &copy; 2023 - Ticket Blaster - <a asp-area="" asp-page="/Index">Home</a>|
+            <span class="float-right">
+                <a asp-area="" asp-page="/AboutUs">About Us</a>|
+                <a href="https://www.facebook.com/profile.php?id=100091862906924" target="_blank" class="fa fa-facebook"></a>|
+                <a asp-area="" asp-page="/Reviews">Reviews</a>
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
+            </span>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-    </body>
+<script>
+    // Load dark mode setting from localStorage.
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const savedDarkMode = localStorage.getItem('dark-mode');
+    
+    if (savedDarkMode === 'true') {
+        document.body.classList.add('dark-mode');
+        darkModeToggle.checked = true;
+    }
+
+    // Listen for changes and save the setting to localStorage.
+    darkModeToggle.addEventListener('change', function () {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('dark-mode', darkModeToggle.checked);
+    });
+</script>
+
+</body>
 </html>
