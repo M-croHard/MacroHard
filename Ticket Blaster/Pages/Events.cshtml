@@ -1,0 +1,58 @@
+﻿@page
+@model Ticket_Blaster.Pages.Event
+@{
+	string[] dataArray = { "Bringing Down Ballard", "Eli Cuchna" , "Ballard Hall", "We party rockin' ",
+	"The Emptys", "Venue 354", "Venue 354", "Listen to some live music!",
+	"IPMHIABOD", "Perry P", "Fargo on Broadway", "Band is releasing some new singles! Come listen!"
+	};
+	int[] EventIDArray = { 1452, 2482, 3903 };
+	DateTime[] dateArray = { new DateTime(2023, 4, 30), new DateTime(2023, 5, 15), new DateTime(2023, 5, 23) };
+
+	Event[] localEvents = new Event[3];
+	int index = 0;
+	int indexOfLocalEvents = 0;
+	while (indexOfLocalEvents < EventIDArray.Length)
+	{
+		Event tmpEvent = new Event();
+		tmpEvent.EventID = EventIDArray[indexOfLocalEvents];
+
+		tmpEvent.EventDate = dateArray[indexOfLocalEvents];
+
+		tmpEvent.EventName = dataArray[index];
+		tmpEvent.EventHost = dataArray[index + 1];
+		tmpEvent.EventAddress = dataArray[index + 2];
+		tmpEvent.EventDescription = dataArray[index + 3];
+		localEvents[indexOfLocalEvents] = tmpEvent;
+		indexOfLocalEvents += 1;
+		index += 4;
+	}
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+</head>
+<body>
+	<h1>Local Events</h1>
+	<h4>Let's party!</h4>
+	<br />
+	@for (int i = 0; i < localEvents.Length; i++)
+	{
+		<h3>@localEvents[i].EventName</h3>
+		<p>Host: @localEvents[i].EventHost</p>
+		<p>Date: @localEvents[i].EventDate.ToString("MM/dd/yyyy")</p>
+		<p>Location: @localEvents[i].EventAddress</p>
+		<p>Description: @localEvents[i].EventDescription</p>
+		<form action="Register" method="post">
+			<input type="submit" value="Register">
+		</form>
+		<br />
+		<br />
+	}
+
+
+
+
+</body>
+</html>
