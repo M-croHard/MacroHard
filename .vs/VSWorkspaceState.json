@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Ticket Blaster"
   ],
-  "SelectedNode": "\\Ticket Blaster.sln",
+  "SelectedNode": "\\Ticket Blaster\\Ticket Blaster.csproj",
   "PreviewInSolutionExplorer": false
 }
