@@ -1,8 +1,19 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Ticket_Blaster.Data;
+using Ticket_Blaster.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("Ticket_BlasterContextConnection") ?? throw new InvalidOperationException("Connection string 'Ticket_BlasterContextConnection' not found.");
+
+builder.Services.AddDbContext<Ticket_BlasterContext>(options =>
+    options.UseSqlServer(connectionString));
+
+builder.Services.AddDefaultIdentity<Ticket_BlasterUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<Ticket_BlasterContext>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -21,6 +32,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 
 app.UseAuthorization();
 

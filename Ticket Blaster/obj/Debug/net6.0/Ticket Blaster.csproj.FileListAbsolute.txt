@@ -2708,3 +2708,11 @@ C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\obj\Debug\net6.0\refi
 C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.pdb
 C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.genruntimeconfig.cache
 C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\obj\Debug\net6.0\ref\Ticket Blaster.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Nickl\Desktop\TicketTest\MacroHard\Ticket Blaster\obj\Debug\net6.0\Ticket Blaster.MvcApplicationPartsAssemblyInfo.cs
