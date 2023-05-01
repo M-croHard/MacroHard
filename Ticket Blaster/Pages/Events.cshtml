@@ -1,0 +1,31 @@
+﻿@page
+@model Ticket_Blaster.Pages.EventsModel
+@{
+    var db = new DataDB.TicketBlasterContext();
+}
+<style>
+</style>
+<html> 
+    <body> 
+        <h1>Upcoming Events</h1> 
+        <table> 
+            <tr>
+                <th>Event</th> 
+                <th>Date</th> 
+                <th>Admission Type</th>
+                <th>Tickets Available</th>
+                <th>Cost</th>
+            </tr>
+            @foreach (var row in db.Tickets)
+            {
+                <tr> 
+                    <td>@row.TicketEvent</td> 
+                    <td>@row.TicketDate</td> 
+                    <td>@row.TicketType</td>
+                    <td>@row.TicketAvailable</td>
+                    <td>$@row.TicketCost</td>
+                </tr> 
+            }
+        </table> 
+    </body> 
+</html>
