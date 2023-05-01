@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataDB\" />
+    <Folder Include="Pages\DataDB\" />
   </ItemGroup>
 
 </Project>

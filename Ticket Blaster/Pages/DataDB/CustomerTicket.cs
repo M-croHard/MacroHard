@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Ticket_Blaster.DataDB
+namespace Ticket_Blaster.Pages.DataDB
 {
     public partial class CustomerTicket
     {

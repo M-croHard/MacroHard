@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Ticket_Blaster.DataDB
+namespace Ticket_Blaster.Pages.DataDB
 {
     public partial class TicketBlasterContext : DbContext
     {
